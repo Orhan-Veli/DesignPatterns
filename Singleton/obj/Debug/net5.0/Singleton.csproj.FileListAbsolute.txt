@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/Singleton.deps.json
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/Singleton.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/Singleton.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/Singleton.dll
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/ref/Singleton.dll
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/bin/Debug/net5.0/Singleton.pdb
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.dll
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/ref/Singleton.dll
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.pdb
+/Applications/VSCODE/DesignPatterns/Factory/Singleton/obj/Debug/net5.0/Singleton.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/FactoryMethod.deps.json
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/FactoryMethod.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/FactoryMethod.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/FactoryMethod.dll
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/ref/FactoryMethod.dll
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/bin/Debug/net5.0/FactoryMethod.pdb
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.dll
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/ref/FactoryMethod.dll
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.pdb
+/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/Debug/net5.0/FactoryMethod.genruntimeconfig.cache

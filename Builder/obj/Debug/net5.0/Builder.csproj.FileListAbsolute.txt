@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/Builder.deps.json
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/Builder.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/Builder.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/Builder.dll
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/ref/Builder.dll
+/Applications/VSCODE/DesignPatterns/Factory/Builder/bin/Debug/net5.0/Builder.pdb
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.dll
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/ref/Builder.dll
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.pdb
+/Applications/VSCODE/DesignPatterns/Factory/Builder/obj/Debug/net5.0/Builder.genruntimeconfig.cache
