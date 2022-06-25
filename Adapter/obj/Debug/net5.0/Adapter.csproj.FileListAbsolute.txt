@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/Adapter.deps.json
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/Adapter.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/Adapter.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/Adapter.dll
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/ref/Adapter.dll
+/Applications/VSCODE/DesignPatterns/Adapter/bin/Debug/net5.0/Adapter.pdb
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.dll
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/ref/Adapter.dll
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.pdb
+/Applications/VSCODE/DesignPatterns/Adapter/obj/Debug/net5.0/Adapter.genruntimeconfig.cache
