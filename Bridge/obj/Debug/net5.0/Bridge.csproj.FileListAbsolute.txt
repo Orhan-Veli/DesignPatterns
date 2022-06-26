@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/Bridge.deps.json
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/Bridge.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/Bridge.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/Bridge.dll
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/ref/Bridge.dll
+/Applications/VSCODE/DesignPatterns/Bridge/bin/Debug/net5.0/Bridge.pdb
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.dll
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/ref/Bridge.dll
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.pdb
+/Applications/VSCODE/DesignPatterns/Bridge/obj/Debug/net5.0/Bridge.genruntimeconfig.cache
