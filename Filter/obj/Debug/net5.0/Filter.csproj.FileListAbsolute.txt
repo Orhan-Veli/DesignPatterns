@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/Filter.deps.json
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/Filter.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/Filter.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/Filter.dll
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/ref/Filter.dll
+/Applications/VSCODE/DesignPatterns/Filter/bin/Debug/net5.0/Filter.pdb
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.dll
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/ref/Filter.dll
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.pdb
+/Applications/VSCODE/DesignPatterns/Filter/obj/Debug/net5.0/Filter.genruntimeconfig.cache
