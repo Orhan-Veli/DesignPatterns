@@ -15,12 +15,12 @@ namespace Bridge
         }
     }
 
-    public interface DrawApi
+    public interface IDrawApi
     {
         void DrawCircle(int r, int y, int z);
     }
 
-    public class RedCircle : DrawApi
+    public class RedCircle : IDrawApi
     {
         public void DrawCircle(int r, int y, int z)
         {
@@ -28,7 +28,7 @@ namespace Bridge
         }
     }
 
-    public class GreenCircle : DrawApi 
+    public class GreenCircle : IDrawApi 
     {
         public void DrawCircle(int r, int y, int z) 
         {
@@ -38,9 +38,9 @@ namespace Bridge
 
     public abstract class Shape
     {
-        protected DrawApi drawApi;
+        protected IDrawApi drawApi;
 
-        protected Shape(DrawApi drawApi)
+        protected Shape(IDrawApi drawApi)
         {
             this.drawApi = drawApi;
         }
@@ -52,7 +52,7 @@ namespace Bridge
     {
         private int r,y,z;
 
-        public Circle(int r, int y, int z, DrawApi drawApi) : base(drawApi)
+        public Circle(int r, int y, int z, IDrawApi drawApi) : base(drawApi)
         {
             this.z = z;
             this.y = y;

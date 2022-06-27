@@ -6,9 +6,9 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Shape circle = new Circle();
-            Shape redCircle = new RedShapeDecorator(new Circle());
-            Shape redRectangle = new RedShapeDecorator(new Rectangle());
+            IShape circle = new Circle();
+            IShape redCircle = new RedShapeDecorator(new Circle());
+            IShape redRectangle = new RedShapeDecorator(new Rectangle());
             Console.WriteLine("Circle With normal border");
             circle.Draw();
 
@@ -19,12 +19,12 @@ namespace Decorator
         }
     }
 
-    public interface Shape
+    public interface IShape
     {
         void Draw();
     }
 
-    public class Rectangle : Shape
+    public class Rectangle : IShape
     {
         public void Draw()
         {
@@ -32,7 +32,7 @@ namespace Decorator
         }
     }
 
-    public class Circle : Shape
+    public class Circle : IShape
     {
         public void Draw()
         {
@@ -40,11 +40,11 @@ namespace Decorator
         }
     }
 
-    public abstract class ShapeDecorator : Shape
+    public abstract class ShapeDecorator : IShape
     {
-        protected Shape decoratedShape;
+        protected IShape decoratedShape;
 
-        public ShapeDecorator(Shape decoratedShape){
+        public ShapeDecorator(IShape decoratedShape){
             this.decoratedShape = decoratedShape;
         }
 
@@ -55,7 +55,7 @@ namespace Decorator
     }
 
     public class RedShapeDecorator : ShapeDecorator{
-        public RedShapeDecorator(Shape decoratedShape) : base(decoratedShape)
+        public RedShapeDecorator(IShape decoratedShape) : base(decoratedShape)
         {
 
         }
@@ -66,7 +66,7 @@ namespace Decorator
             setRedBorder(decoratedShape);
         }
 
-        private void setRedBorder(Shape decoratedShape)
+        private void setRedBorder(IShape decoratedShape)
         {
             Console.WriteLine("Border color: Red");
         }

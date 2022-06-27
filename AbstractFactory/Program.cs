@@ -19,25 +19,25 @@ namespace AbstractFactory
         }
     }
 
-    public interface Shape
+    public interface IShape
     {
         void Draw();
     }
-    public class Rectangle : Shape
+    public class Rectangle : IShape
     {
         public void Draw()
         {
             Console.WriteLine("Rectagle class talking");
         }
     }
-    public class Circle : Shape
+    public class Circle : IShape
     {
         public void Draw()
         {
             Console.WriteLine("Circle class talking");
         }
     }
-    public class Square : Shape
+    public class Square : IShape
     {
         public void Draw()
         {
@@ -45,7 +45,7 @@ namespace AbstractFactory
         }
     }
 
-    public class ModernSquare : Shape 
+    public class ModernSquare : IShape 
     {
         public void Draw()
         {
@@ -53,7 +53,7 @@ namespace AbstractFactory
         }
     }
 
-    public class ModernCircle : Shape
+    public class ModernCircle : IShape
     {
         public void Draw()
         {

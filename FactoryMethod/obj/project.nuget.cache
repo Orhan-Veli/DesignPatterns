@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Blr1ofsF51i1Zz6DKNqZZ47w9vOtscfH9btfGakASGox42CMYCX+CxBFtI3yJBX6sEtRoY77XtYjWYcyFEfKHw==",
+  "dgSpecHash": "yqoOBpdEMN0hrWH8wIi8LOIAovE1UTz+lAFZmH8svagYfcpZKTR0pJ9A/7Wz+CZRWJfc3wkx16JfzSLkO2cYKw==",
   "success": true,
-  "projectFilePath": "/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/FactoryMethod.csproj",
+  "projectFilePath": "/Applications/VSCODE/DesignPatterns/FactoryMethod/FactoryMethod.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

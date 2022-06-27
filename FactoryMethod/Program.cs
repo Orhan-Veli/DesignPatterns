@@ -13,12 +13,12 @@ namespace FactoryMethod
         }
     }
 
-    public interface Shape
+    public interface IShape
     {
         void Draw();
     }
 
-    public class Rectangle : Shape
+    public class Rectangle : IShape
     {
         public void Draw()
         {
@@ -26,7 +26,7 @@ namespace FactoryMethod
         }
     }
 
-    public class Circle : Shape
+    public class Circle : IShape
     {
         public void Draw()
         {
@@ -34,7 +34,7 @@ namespace FactoryMethod
         }
     }
 
-    public class Square : Shape 
+    public class Square : IShape 
     {
         public void Draw()
         {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/FactoryMethod.csproj",
+      "projectUniqueName": "/Applications/VSCODE/DesignPatterns/FactoryMethod/FactoryMethod.csproj",
       "projectName": "FactoryMethod",
-      "projectPath": "/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/FactoryMethod.csproj",
+      "projectPath": "/Applications/VSCODE/DesignPatterns/FactoryMethod/FactoryMethod.csproj",
       "packagesPath": "/Users/orhanveligogebakan/.nuget/packages/",
-      "outputPath": "/Applications/VSCODE/DesignPatterns/Factory/FactoryMethod/obj/",
+      "outputPath": "/Applications/VSCODE/DesignPatterns/FactoryMethod/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/orhanveligogebakan/.nuget/NuGet/NuGet.Config"

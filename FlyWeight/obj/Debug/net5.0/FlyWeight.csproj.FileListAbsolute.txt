@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/FlyWeight.deps.json
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/FlyWeight.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/FlyWeight.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/FlyWeight.dll
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/ref/FlyWeight.dll
+/Applications/VSCODE/DesignPatterns/FlyWeight/bin/Debug/net5.0/FlyWeight.pdb
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.dll
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/ref/FlyWeight.dll
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.pdb
+/Applications/VSCODE/DesignPatterns/FlyWeight/obj/Debug/net5.0/FlyWeight.genruntimeconfig.cache

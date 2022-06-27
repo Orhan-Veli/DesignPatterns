@@ -15,12 +15,12 @@ namespace Facade
         }
     }
 
-    public interface Shape
+    public interface IShape
     {
         void Draw();
     }
 
-    public class Rectangle : Shape
+    public class Rectangle : IShape
     {
         public void Draw()
         {
@@ -28,7 +28,7 @@ namespace Facade
         }
     }
 
-    public class Square : Shape
+    public class Square : IShape
     {
         public void Draw()
         {
@@ -36,7 +36,7 @@ namespace Facade
         }
     }
 
-    public class Circle : Shape
+    public class Circle : IShape
     {
         public void Draw()
         {
@@ -46,9 +46,9 @@ namespace Facade
 
     public class ShapeMaker
     {
-        private Shape circle;
-        private Shape rectangle;
-        private Shape square;
+        private IShape circle;
+        private IShape rectangle;
+        private IShape square;
 
         public ShapeMaker()
         {

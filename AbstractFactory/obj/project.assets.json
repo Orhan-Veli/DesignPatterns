@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Applications/VSCODE/DesignPatterns/Factory/AbstractFactory/AbstractFactory.csproj",
+      "projectUniqueName": "/Applications/VSCODE/DesignPatterns/AbstractFactory/AbstractFactory.csproj",
       "projectName": "AbstractFactory",
-      "projectPath": "/Applications/VSCODE/DesignPatterns/Factory/AbstractFactory/AbstractFactory.csproj",
+      "projectPath": "/Applications/VSCODE/DesignPatterns/AbstractFactory/AbstractFactory.csproj",
       "packagesPath": "/Users/orhanveligogebakan/.nuget/packages/",
-      "outputPath": "/Applications/VSCODE/DesignPatterns/Factory/AbstractFactory/obj/",
+      "outputPath": "/Applications/VSCODE/DesignPatterns/AbstractFactory/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/orhanveligogebakan/.nuget/NuGet/NuGet.Config"

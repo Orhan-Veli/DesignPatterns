@@ -45,24 +45,14 @@ namespace Filter
         public string Name { get; set; }
         public string Gender { get; set; }
         public string MaritalStatus { get; set; }
-        // private string name;
-        // private string gender;
-        // private string maritalStatus;
-
-        // public Person(string name, string gender, string maritalStatus)
-        // {
-        //     this.name = name;
-        //     this.gender = gender;
-        //     this.maritalStatus = maritalStatus;
-        // }
     }
 
-    public interface Criteria
+    public interface ICriteria
     {
         List<Person> MeetCriteria(List<Person> persons);
     }
 
-    public class CriteriaMale : Criteria
+    public class CriteriaMale : ICriteria
     {
         public List<Person> MeetCriteria(List<Person> persons)
         {
@@ -79,7 +69,7 @@ namespace Filter
         } 
     }
 
-    public class CriteriaFemale : Criteria
+    public class CriteriaFemale : ICriteria
     {
         public List<Person> MeetCriteria(List<Person> persons)
         {
@@ -96,7 +86,7 @@ namespace Filter
         } 
     }
 
-    public class CriteriaSingle : Criteria
+    public class CriteriaSingle : ICriteria
     {
         public List<Person> MeetCriteria(List<Person> persons)
         {
@@ -113,12 +103,12 @@ namespace Filter
         }
     }
 
-    public class AndCriteria : Criteria
+    public class AndCriteria : ICriteria
     {
-        private Criteria criteria;
-        private Criteria otherCriteria;
+        private ICriteria criteria;
+        private ICriteria otherCriteria;
 
-        public AndCriteria(Criteria criteria,Criteria otherCriteria)
+        public AndCriteria(ICriteria criteria,ICriteria otherCriteria)
         {
             this.criteria = criteria;
             this.otherCriteria = criteria;
@@ -131,12 +121,12 @@ namespace Filter
         }
     }
 
-    public class OrCriteria : Criteria
+    public class OrCriteria : ICriteria
     {
-        private Criteria criteria;
-        private Criteria otherCriteria;
+        private ICriteria criteria;
+        private ICriteria otherCriteria;
 
-        public OrCriteria(Criteria criteria,Criteria otherCriteria)
+        public OrCriteria(ICriteria criteria,ICriteria otherCriteria)
         {
             this.criteria = criteria;
             this.otherCriteria = criteria;
