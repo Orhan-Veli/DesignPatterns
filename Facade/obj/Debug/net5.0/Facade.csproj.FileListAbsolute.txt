@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/Facade.deps.json
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/Facade.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/Facade.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/Facade.dll
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/ref/Facade.dll
+/Applications/VSCODE/DesignPatterns/Facade/bin/Debug/net5.0/Facade.pdb
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.dll
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/ref/Facade.dll
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.pdb
+/Applications/VSCODE/DesignPatterns/Facade/obj/Debug/net5.0/Facade.genruntimeconfig.cache
