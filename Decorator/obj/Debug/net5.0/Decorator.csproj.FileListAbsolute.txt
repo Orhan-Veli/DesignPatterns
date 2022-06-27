@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/Decorator.deps.json
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/Decorator.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/Decorator.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/Decorator.dll
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/ref/Decorator.dll
+/Applications/VSCODE/DesignPatterns/Decorator/bin/Debug/net5.0/Decorator.pdb
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.dll
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/ref/Decorator.dll
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.pdb
+/Applications/VSCODE/DesignPatterns/Decorator/obj/Debug/net5.0/Decorator.genruntimeconfig.cache
