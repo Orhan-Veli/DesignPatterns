@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ChainOfResponsibility.deps.json
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ChainOfResponsibility.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ChainOfResponsibility.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ChainOfResponsibility.dll
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ref/ChainOfResponsibility.dll
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/bin/Debug/net5.0/ChainOfResponsibility.pdb
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.dll
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ref/ChainOfResponsibility.dll
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.pdb
+/Applications/VSCODE/DesignPatterns/ChainOfResponsibility/obj/Debug/net5.0/ChainOfResponsibility.genruntimeconfig.cache
