@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/Interpreter.deps.json
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/Interpreter.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/Interpreter.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/Interpreter.dll
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/ref/Interpreter.dll
+/Applications/VSCODE/DesignPatterns/Interpreter/bin/Debug/net5.0/Interpreter.pdb
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.dll
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/ref/Interpreter.dll
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.pdb
+/Applications/VSCODE/DesignPatterns/Interpreter/obj/Debug/net5.0/Interpreter.genruntimeconfig.cache
