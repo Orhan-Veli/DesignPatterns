@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/Observer.deps.json
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/Observer.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/Observer.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/Observer.dll
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/ref/Observer.dll
+/Applications/VSCODE/DesignPatterns/Observer/bin/Debug/net5.0/Observer.pdb
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.dll
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/ref/Observer.dll
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.pdb
+/Applications/VSCODE/DesignPatterns/Observer/obj/Debug/net5.0/Observer.genruntimeconfig.cache
