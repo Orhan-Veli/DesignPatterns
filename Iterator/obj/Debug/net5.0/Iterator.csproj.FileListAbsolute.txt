@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/Iterator.deps.json
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/Iterator.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/Iterator.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/Iterator.dll
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/ref/Iterator.dll
+/Applications/VSCODE/DesignPatterns/Iterator/bin/Debug/net5.0/Iterator.pdb
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.dll
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/ref/Iterator.dll
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.pdb
+/Applications/VSCODE/DesignPatterns/Iterator/obj/Debug/net5.0/Iterator.genruntimeconfig.cache
