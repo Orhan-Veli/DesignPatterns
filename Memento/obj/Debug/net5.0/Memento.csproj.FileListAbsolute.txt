@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/Memento.deps.json
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/Memento.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/Memento.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/Memento.dll
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/ref/Memento.dll
+/Applications/VSCODE/DesignPatterns/Memento/bin/Debug/net5.0/Memento.pdb
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.dll
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/ref/Memento.dll
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.pdb
+/Applications/VSCODE/DesignPatterns/Memento/obj/Debug/net5.0/Memento.genruntimeconfig.cache
