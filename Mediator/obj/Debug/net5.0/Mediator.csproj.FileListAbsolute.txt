@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/Mediator.deps.json
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/Mediator.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/Mediator.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/Mediator.dll
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/ref/Mediator.dll
+/Applications/VSCODE/DesignPatterns/Mediator/bin/Debug/net5.0/Mediator.pdb
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.dll
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/ref/Mediator.dll
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.pdb
+/Applications/VSCODE/DesignPatterns/Mediator/obj/Debug/net5.0/Mediator.genruntimeconfig.cache
