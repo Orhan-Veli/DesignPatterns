@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/DataAccessObject.deps.json
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/DataAccessObject.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/DataAccessObject.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/DataAccessObject.dll
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/ref/DataAccessObject.dll
+/Applications/VSCODE/DesignPatterns/DataAccessObject/bin/Debug/net5.0/DataAccessObject.pdb
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.dll
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/ref/DataAccessObject.dll
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.pdb
+/Applications/VSCODE/DesignPatterns/DataAccessObject/obj/Debug/net5.0/DataAccessObject.genruntimeconfig.cache
