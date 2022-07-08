@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/BusinessDelegate.deps.json
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/BusinessDelegate.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/BusinessDelegate.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/BusinessDelegate.dll
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/ref/BusinessDelegate.dll
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/bin/Debug/net5.0/BusinessDelegate.pdb
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.dll
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/ref/BusinessDelegate.dll
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.pdb
+/Applications/VSCODE/DesignPatterns/BusinessDelegate/obj/Debug/net5.0/BusinessDelegate.genruntimeconfig.cache
