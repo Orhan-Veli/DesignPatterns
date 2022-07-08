@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/Visitor.deps.json
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/Visitor.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/Visitor.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/Visitor.dll
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/ref/Visitor.dll
+/Applications/VSCODE/DesignPatterns/Visitor/bin/Debug/net5.0/Visitor.pdb
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.dll
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/ref/Visitor.dll
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.pdb
+/Applications/VSCODE/DesignPatterns/Visitor/obj/Debug/net5.0/Visitor.genruntimeconfig.cache
