@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/Strategy.deps.json
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/Strategy.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/Strategy.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/Strategy.dll
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/ref/Strategy.dll
+/Applications/VSCODE/DesignPatterns/Strategy/bin/Debug/net5.0/Strategy.pdb
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.dll
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/ref/Strategy.dll
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.pdb
+/Applications/VSCODE/DesignPatterns/Strategy/obj/Debug/net5.0/Strategy.genruntimeconfig.cache
