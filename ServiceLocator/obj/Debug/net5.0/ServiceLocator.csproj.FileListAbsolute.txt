@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ServiceLocator.deps.json
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ServiceLocator.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ServiceLocator.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ServiceLocator.dll
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ref/ServiceLocator.dll
+/Applications/VSCODE/DesignPatterns/ServiceLocator/bin/Debug/net5.0/ServiceLocator.pdb
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.dll
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ref/ServiceLocator.dll
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.pdb
+/Applications/VSCODE/DesignPatterns/ServiceLocator/obj/Debug/net5.0/ServiceLocator.genruntimeconfig.cache
