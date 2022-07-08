@@ -59,7 +59,7 @@ namespace DataAccessObject
 
         public void DeleteStudent(Student student)
         {
-            students.RemoveAt(student.RollNo);
+            students.RemoveAll(x=> x.RollNo == student.RollNo);
             Console.WriteLine("Student Roll No " + student.RollNo);
         }
 

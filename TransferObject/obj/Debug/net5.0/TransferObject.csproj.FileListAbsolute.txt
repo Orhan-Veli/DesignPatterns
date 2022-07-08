@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/TransferObject.deps.json
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/TransferObject.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/TransferObject.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/TransferObject.dll
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/ref/TransferObject.dll
+/Applications/VSCODE/DesignPatterns/TransferObject/bin/Debug/net5.0/TransferObject.pdb
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.dll
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/ref/TransferObject.dll
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.pdb
+/Applications/VSCODE/DesignPatterns/TransferObject/obj/Debug/net5.0/TransferObject.genruntimeconfig.cache
