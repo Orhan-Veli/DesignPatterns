@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/CompositeEntity.deps.json
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/CompositeEntity.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/CompositeEntity.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/CompositeEntity.dll
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/ref/CompositeEntity.dll
+/Applications/VSCODE/DesignPatterns/CompositeEntity/bin/Debug/net5.0/CompositeEntity.pdb
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.dll
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/ref/CompositeEntity.dll
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.pdb
+/Applications/VSCODE/DesignPatterns/CompositeEntity/obj/Debug/net5.0/CompositeEntity.genruntimeconfig.cache
