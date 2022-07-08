@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/InterceptingFilter.deps.json
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/InterceptingFilter.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/InterceptingFilter.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/InterceptingFilter.dll
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/ref/InterceptingFilter.dll
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/bin/Debug/net5.0/InterceptingFilter.pdb
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.dll
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/ref/InterceptingFilter.dll
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.pdb
+/Applications/VSCODE/DesignPatterns/InterceptingFilter/obj/Debug/net5.0/InterceptingFilter.genruntimeconfig.cache
