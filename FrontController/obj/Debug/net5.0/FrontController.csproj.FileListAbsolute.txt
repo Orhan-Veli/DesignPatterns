@@ -1,0 +1,15 @@
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.csproj.AssemblyReference.cache
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.AssemblyInfoInputs.cache
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.AssemblyInfo.cs
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.csproj.CoreCompileInputs.cache
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/FrontController.deps.json
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/FrontController.runtimeconfig.json
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/FrontController.runtimeconfig.dev.json
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/FrontController.dll
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/ref/FrontController.dll
+/Applications/VSCODE/DesignPatterns/FrontController/bin/Debug/net5.0/FrontController.pdb
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.dll
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/ref/FrontController.dll
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.pdb
+/Applications/VSCODE/DesignPatterns/FrontController/obj/Debug/net5.0/FrontController.genruntimeconfig.cache
