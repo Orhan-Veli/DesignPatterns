@@ -7,6 +7,8 @@
 * [Bridge](#bridge)
 * [Builder](#builder)
 * [Business Delegate](#business-delegate)
+* [Chain Of Responsibility](#chain-of-Responsibility)
+
 ## Abstract Factory
 
 ### Abstract Factory Pattern Nedir?
@@ -84,3 +86,17 @@ Sunum katmanı ile iş katmanınız birbiri içerisindeyse, kod karmaşıklığ�
 ## Business Delegate Pattern Uygulama Açıklaması
 
 Burada EJBService ve JMSService adında iki tane sınıf oluşturuyoruz. Bu sınıflar oluşturduğumuz BusinessService arayüzünü kalıtım alıyor. Sonrasında BusinessLookup sınıfı ile hangi sınıfı çekeceğimizi söylüyoruz. BusinessDelegate sınıfı ile BusinessLookup ve BusinessService i kullanıp, lookup üzerinden sınıfı çağırıp service üzerindende işlemimizi yürütüyoruz. 
+
+# Chain Of Responsibility
+
+## Chain Of Responsibility Pattern Nedir?
+
+Gelen istekleri bir dizi işleyici yardımıyla alt sınıflara iletmenizi sağlayan tasarım desenidir.
+
+## Chain Of Responsibility Pattern Ne Zaman Kullanılır?
+
+Bir middleware yapısı kurmanız gerekiyor ya da bir loglama yapmak istiyorsunuz. Bu tasarım deseni ile bu işlemi daha sağlıklı bir şekilde gerçekleştirebilirsiniz.
+
+## Chain Of Responsibility Pattern Uygulama Açıklaması
+
+Bu uygulamamızda loglama işlemini ele aldık. Oluşturduğumuz log sınıflarını AbstractLogger adında sanal bir sınıf üzerinde çağırıp hangi tipe göre loglayacağımızı belirtiyoruz.
