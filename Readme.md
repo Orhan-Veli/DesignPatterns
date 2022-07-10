@@ -5,6 +5,7 @@
 * [Abstract Factory](#abstract-factory)
 * [Adapter](#adapter)
 * [Bridge](#bridge)
+* [Builder](#builder)
 
 ## Abstract Factory
 
@@ -55,3 +56,17 @@ Client tarafından direkt farklı arayüzlere erişmek istemiyorsanız ve yapın
 
 DrawAPI arayüzümüz burada bridge entegratörü olarak işlev görüyor. RedCircle ve GreenCircle bu arayüzü kalıtım alıyor.
 Shape sanal sınıfımız DrawAPI arayüzümüzü kullanıyor ve Konsol uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
+
+# Builder
+
+## Builder Pattern Nedir?
+
+Karışık bir yapıda oluşan constructer yapısını ayırmamızı sağlayan tasarım deseni.
+
+## Builder Pattern Ne Zaman Kullanılır?
+
+Karmaşık bir yapınız var ise constructerda biriken parametreler, arayüzler ve sınıflar var ise bu desen tam size göre.
+
+## Builder Pattern Uygulama Açıklaması
+
+Toy adında bir model oluşturuyoruz. IToyBuilder arayüzümüzü oluşturup iki adet ToyABuilder ve ToyBBuilder sınıflarımıza entegre ediyoruz. Oluşturduğumuz ToyCreator sınıfımız bir toy builder sınıfı alıyor ve konsol üzerinden bir toy üretiyor.
