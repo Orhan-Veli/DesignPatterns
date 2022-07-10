@@ -4,6 +4,7 @@
 ## İçindekiler
 * [Abstract Factory](#abstract-factory)
 * [Adapter](#adapter)
+* [Bridge](#bridge)
 
 ## Abstract Factory
 
@@ -39,3 +40,18 @@ Elimizde ikinci olarak AdvancedMediaPlayer arayüzümüz var, bu arayüzü VlcPl
 Biz AudioPlayerın diğer formatları da çalmasını istiyoruz. Bu yüzden MediaAdapter adında bir class ürettik. MediaAdapter Mediaplayer arayüzünü kalıtım alıyor ve AdvancedMediaPlayer sınıfını kullanıyor.
 
 AudioPlayer sınıfına istediğimiz MediaPlayerı yolluyoruz. O da hangi formatta çalması gerektiğini bilip çalmaya başlıyor.
+
+# Bridge
+
+## Bridge Pattern Nedir?
+
+Bir köprü sanal sınıfı ile farklı arayüzlere ulaşmak için kullanılan tasarım desenidir.
+
+## Bridge Pattern Ne Zaman Kullanılır?
+
+Client tarafından direkt farklı arayüzlere erişmek istemiyorsanız ve yapınızı bir sanal sınıf aracılığıyla kurgulamak istiyorsanız.
+
+## Bridge Pattern Uygulama Açıklaması
+
+DrawAPI arayüzümüz burada bridge entegratörü olarak işlev görüyor. RedCircle ve GreenCircle bu arayüzü kalıtım alıyor.
+Shape sanal sınıfımız DrawAPI arayüzümüzü kullanıyor ve Konsol uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
