@@ -6,7 +6,7 @@
 * [Adapter](#adapter)
 * [Bridge](#bridge)
 * [Builder](#builder)
-
+* [Business Delegate](#business-delegate)
 ## Abstract Factory
 
 ### Abstract Factory Pattern Nedir?
@@ -70,3 +70,17 @@ Karmaşık bir yapınız var ise constructerda biriken parametreler, arayüzler 
 ## Builder Pattern Uygulama Açıklaması
 
 Toy adında bir model oluşturuyoruz. IToyBuilder arayüzümüzü oluşturup iki adet ToyABuilder ve ToyBBuilder sınıflarımıza entegre ediyoruz. Oluşturduğumuz ToyCreator sınıfımız bir toy builder sınıfı alıyor ve konsol üzerinden bir toy üretiyor.
+
+# Business Delegate
+
+## Business Delegate Pattern Nedir?
+
+Sunum katmanı ile iş katmanını birbirinden ayırmak için kullanılan patterndir.
+
+## Business Delegate Pattern Ne Zaman Kullanılır?
+
+Sunum katmanı ile iş katmanınız birbiri içerisindeyse, kod karmaşıklığı yaratıyorsa. Bu pattern tam size göre.
+
+## Business Delegate Pattern Uygulama Açıklaması
+
+Burada EJBService ve JMSService adında iki tane sınıf oluşturuyoruz. Bu sınıflar oluşturduğumuz BusinessService arayüzünü kalıtım alıyor. Sonrasında BusinessLookup sınıfı ile hangi sınıfı çekeceğimizi söylüyoruz. BusinessDelegate sınıfı ile BusinessLookup ve BusinessService i kullanıp, lookup üzerinden sınıfı çağırıp service üzerindende işlemimizi yürütüyoruz. 
