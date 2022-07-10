@@ -8,6 +8,7 @@
 * [Builder](#builder)
 * [Business Delegate](#business-delegate)
 * [Chain Of Responsibility](#chain-of-Responsibility)
+* [Command](#command)
 
 ## Abstract Factory
 
@@ -100,3 +101,17 @@ Bir middleware yapısı kurmanız gerekiyor ya da bir loglama yapmak istiyorsunu
 ## Chain Of Responsibility Pattern Uygulama Açıklaması
 
 Bu uygulamamızda loglama işlemini ele aldık. Oluşturduğumuz log sınıflarını AbstractLogger adında sanal bir sınıf üzerinde çağırıp hangi tipe göre loglayacağımızı belirtiyoruz.
+
+# Command
+
+## Command Pattern Nedir?
+
+Gelen bir isteği nesneye dönüştüren ve isteğin kullanıcı tarafından erişilebilir olmasını sağlayan tasarım desenidir.
+
+## Command Pattern Ne Zaman Kullanılır?
+
+Bir windows form, wpf veya unity gibi uygulama tabanlı program kodlarken kullanılabilir.
+
+## Command Pattern Uygulama Açıklaması
+
+Bir Order arayüzü oluşturuyoruz bu arayüz command gibi davranıyor. Stock adında bir sınıf oluşturuyoruz ve bu sınıf istek gibi hareket ediyor. BuyStock ve SellStock sınıflarımız command işlemlerini yürütüyor. Broker sınıfımız çağırıcı olarak işlev görüyor ve sipariş alıyor. Broker sınıfı command tasarım desenini kullanarak hangi objeye göre işlem yapacağını belirliyor.
