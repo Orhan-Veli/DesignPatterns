@@ -11,6 +11,7 @@
 * [Command](#command)
 * [Composite Entity](#composite-entity)
 * [Data Access Object](#data-access-object)
+* [Facade](#facade)
 
 ## Abstract Factory
 
@@ -148,14 +149,28 @@ Bir tane Student objesi oluşturacağuz ve bu obje model görevi görecek. Sonra
 
 # Decorator
 
-## Decorator Nedir?
+## Decorator Pattern Nedir?
 
 Kullanıcıya hali hazırda olan bir mimariye yeni bir özellik eklemesini sağlayan tasarım desenidir. 
 
-## Decorator Ne Zaman Kullanılır?
+## Decorator Pattern Ne Zaman Kullanılır?
 
 Hali hazırda olan bir mimarinize yeni bir özellik kazandırmak istiyorsanız. Bu tasarım desenini kullanabilirsiniz.
 
-## Decorator Uygulama Açıklaması
+## Decorator Pattern Uygulama Açıklaması
 
 Bir adet IShape adında bir arayüz oluşturuyoruz, bu arayüzü Circle ve Rectangle sınıfımız kalıtım alıyor. Sonrasında ShapeDecorator sanal sınıf oluşturup, bu sınıf içinde IShape arayüzümüzü kullanıyoruz. RedShapeDecorator sınıfımız ShapeDecorator sanal sınıfını kalıtım alıyor ve program sınıfı üzerinden decorator patterni kullanıyoruz.
+
+# Facade
+
+## Facade Pattern Nedir?
+
+Bu tasarım desenimiz sistemdeki karmaşıklığı saklayıp, müşteriye sisteme erişebileceği bir arayüz sunmaktadır.
+
+## Facade Pattern Ne Zaman Kullanılır?
+
+Karmaşık bir yapınız olduğunu düşünün, sürekli farklı bir sisteme gitmek yerine bunu, Facade tasarım deseni üzerinden altsistemlere gitmek için kullanabilirsiniz.
+
+## Facade Pattern Uygulama Açıklaması
+
+IShape adında bir arayüz oluşturuyoruz. Bu arayüzü Circle, Rectangle, Square kalıtım alıyor. ShapeMaker sınıfımız IShape arayüzü üzerinde alt sınıfları kullanarak Facade tasarım desenini yürütüyor.
