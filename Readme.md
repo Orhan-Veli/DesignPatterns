@@ -12,6 +12,7 @@
 * [Composite Entity](#composite-entity)
 * [Data Access Object](#data-access-object)
 * [Facade](#facade)
+* [Filter](#filter)
 
 ## Abstract Factory
 
@@ -188,3 +189,18 @@ Bir adet temel sınıfımız olduğunu düşünelim ve bunun alt sınıfları ol
 ## Factory Method Pattern Uygulama Açıklaması
 
 IShape adında bir arayüzümüz var bu arayüzü Circle, Square,Rectangle sınıfı kullanıyor. ShapeFactory sınıfımıza hangi alt sınıfı kullanacağımız söylüyoruz ve o da bize istediğimiz sınıfı döndürüyor.
+
+# Filter 
+
+## Filter Pattern Nedir?
+
+Bu tasarım deseni yazılımcıların mantıksal operasyonlarla farklı kriterdeki objeleri filtrelemek amacıyla kullandığı tasarım desenidir.
+
+## Filter Pattern Ne Zaman Kullanılır?
+
+Filreleme işlemlerinde kullanılan tasarım desenidir. 
+
+## Filter Pattern Uygulama Açıklaması
+
+Bir tane Person objesi oluşturalım, oluşturduğumuz ICriteria arayüzünü filtreleme işlemlerinde kullanacağımız sınıflar kalıtım alıyor. Program sınıfında bu arayüzü kullanarak hangi sınıfa göre filtreleme işlemi yapacağımızı belirtiyoruz.
+
