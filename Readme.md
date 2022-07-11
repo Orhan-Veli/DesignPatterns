@@ -24,7 +24,7 @@ Factory method patternini kullandınız fakat artık ürün sayınız artmaya ba
 
 ### Abstract Factory Uygulama Açıklaması
 
-Shape adında bir arayüz oluşturuyoruz, bu arayüzü Rectangle, Square, RoundedRectangle, RoundedSquare kalıtım alıyor. Sonrasında AbstractFactory adında bir sanal sınıf oluşturup ShapeFactory ve RoundedShapeFactory sınıflarımıza kalıtım olarak alıyoruz.Oluşturduğumuz FactoryProducer sınıfı aracılığıyla AbstractFactory sınıfı üzerinden hangi şekili üreteceğimizi söylüyoruz. Son olarak Program üzerinden hangi nesneyi üreteceğimizi söyleyerek işlemlerimizi tamamlıyoruz. 
+IShape adında bir arayüz oluşturuyoruz, bu arayüzü Rectangle, Square, RoundedRectangle, RoundedSquare kalıtım alıyor. Sonrasında AbstractFactory adında bir sanal sınıf oluşturup ShapeFactory ve RoundedShapeFactory sınıflarımıza kalıtım olarak alıyoruz.Oluşturduğumuz FactoryProducer sınıfı aracılığıyla AbstractFactory sınıfı üzerinden hangi şekili üreteceğimizi söylüyoruz. Son olarak Program üzerinden hangi nesneyi üreteceğimizi söyleyerek işlemlerimizi tamamlıyoruz. 
 
 
 # Adapter
@@ -39,11 +39,11 @@ Uygulamada kullanılan bir kütüphane arayüzümüz var. Ekstra bir arayüz ekl
 
 ## Adapter Pattern Uygulama Açıklaması
 
-Elimizde MediaPlayer arayüzümüz var ve bundan AudioPlayer kalıtım alıyor. AudioPlayer mp3 formatında müzik çalabiliyor. 
+Elimizde IMediaPlayer arayüzümüz var ve bundan AudioPlayer kalıtım alıyor. AudioPlayer mp3 formatında müzik çalabiliyor. 
 
-Elimizde ikinci olarak AdvancedMediaPlayer arayüzümüz var, bu arayüzü VlcPlayer ve Mp4Player kalıtım alıyor. Bu classlarımız vlc ve mp4 çalabiliyor.
+Elimizde ikinci olarak IAdvancedMediaPlayer arayüzümüz var, bu arayüzü VlcPlayer ve Mp4Player kalıtım alıyor. Bu classlarımız vlc ve mp4 çalabiliyor.
 
-Biz AudioPlayerın diğer formatları da çalmasını istiyoruz. Bu yüzden MediaAdapter adında bir class ürettik. MediaAdapter Mediaplayer arayüzünü kalıtım alıyor ve AdvancedMediaPlayer sınıfını kullanıyor.
+Biz AudioPlayerın diğer formatları da çalmasını istiyoruz. Bu yüzden MediaAdapter adında bir class ürettik. MediaAdapter IMediaplayer arayüzünü kalıtım alıyor ve AdvancedMediaPlayer sınıfını kullanıyor.
 
 AudioPlayer sınıfına istediğimiz MediaPlayerı yolluyoruz. O da hangi formatta çalması gerektiğini bilip çalmaya başlıyor.
 
@@ -59,8 +59,8 @@ Client tarafından direkt farklı arayüzlere erişmek istemiyorsanız ve yapın
 
 ## Bridge Pattern Uygulama Açıklaması
 
-DrawAPI arayüzümüz burada bridge entegratörü olarak işlev görüyor. RedCircle ve GreenCircle bu arayüzü kalıtım alıyor.
-Shape sanal sınıfımız DrawAPI arayüzümüzü kullanıyor ve Program uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
+IDrawAPI arayüzümüz burada bridge entegratörü olarak işlev görüyor. RedCircle ve GreenCircle bu arayüzü kalıtım alıyor.
+Shape sanal sınıfımız IDrawAPI arayüzümüzü kullanıyor ve Program uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
 
 # Builder
 
@@ -88,7 +88,7 @@ Sunum katmanı ile iş katmanınız birbiri içerisindeyse, kod karmaşıklığ�
 
 ## Business Delegate Pattern Uygulama Açıklaması
 
-Burada EJBService ve JMSService adında iki tane sınıf oluşturuyoruz. Bu sınıflar oluşturduğumuz BusinessService arayüzünü kalıtım alıyor. Sonrasında BusinessLookup sınıfı ile hangi sınıfı çekeceğimizi söylüyoruz. BusinessDelegate sınıfı ile BusinessLookup ve BusinessService i kullanıp, lookup üzerinden sınıfı çağırıp service üzerindende işlemimizi yürütüyoruz. 
+Burada EJBService ve JMSService adında iki tane sınıf oluşturuyoruz. Bu sınıflar oluşturduğumuz IBusinessService arayüzünü kalıtım alıyor. Sonrasında BusinessLookup sınıfı ile hangi sınıfı çekeceğimizi söylüyoruz. BusinessDelegate sınıfı ile BusinessLookup ve BusinessService i kullanıp, lookup üzerinden sınıfı çağırıp service üzerindende işlemimizi yürütüyoruz. 
 
 # Chain Of Responsibility
 
@@ -116,7 +116,7 @@ Bir windows form, wpf veya unity gibi uygulama tabanlı program kodlarken kullan
 
 ## Command Pattern Uygulama Açıklaması
 
-Bir Order arayüzü oluşturuyoruz bu arayüz command gibi davranıyor. Stock adında bir sınıf oluşturuyoruz ve bu sınıf istek gibi hareket ediyor. BuyStock ve SellStock sınıflarımız command işlemlerini yürütüyor. Broker sınıfımız çağırıcı olarak işlev görüyor ve sipariş alıyor. Broker sınıfı command tasarım desenini kullanarak hangi objeye göre işlem yapacağını belirliyor.
+Bir IOrder arayüzü oluşturuyoruz bu arayüz command gibi davranıyor. Stock adında bir sınıf oluşturuyoruz ve bu sınıf istek gibi hareket ediyor. BuyStock ve SellStock sınıflarımız command işlemlerini yürütüyor. Broker sınıfımız çağırıcı olarak işlev görüyor ve sipariş alıyor. Broker sınıfı command tasarım desenini kullanarak hangi objeye göre işlem yapacağını belirliyor.
 
 # Composite Entity
 
@@ -144,4 +144,18 @@ Veri ve iş sınıflarınız birbiri ile iç içeyse, kod okunabilirliği zorla�
 
 ## Data Access Object Uygulama Açıklaması
 
-Bir tane Student objesi oluşturacağuz ve bu obje model görevi görecek. Sonrasında StudentDao arayüzü oluşturup bu arayüzü StudentDao sınıfımız kalıtım alacak. Program sınıfımız tasarım desenini StudentDao sınıfı üzerinden yürütecek.
+Bir tane Student objesi oluşturacağuz ve bu obje model görevi görecek. Sonrasında IStudentDao arayüzü oluşturup bu arayüzü StudentDao sınıfımız kalıtım alacak. Program sınıfımız tasarım desenini StudentDao sınıfı üzerinden yürütecek.
+
+# Decorator
+
+## Decorator Nedir?
+
+Kullanıcıya hali hazırda olan bir mimariye yeni bir özellik eklemesini sağlayan tasarım desenidir. 
+
+## Decorator Ne Zaman Kullanılır?
+
+Hali hazırda olan bir mimarinize yeni bir özellik kazandırmak istiyorsanız. Bu tasarım desenini kullanabilirsiniz.
+
+## Decorator Uygulama Açıklaması
+
+Bir adet IShape adında bir arayüz oluşturuyoruz, bu arayüzü Circle ve Rectangle sınıfımız kalıtım alıyor. Sonrasında ShapeDecorator sanal sınıf oluşturup, bu sınıf içinde IShape arayüzümüzü kullanıyoruz. RedShapeDecorator sınıfımız ShapeDecorator sanal sınıfını kalıtım alıyor ve program sınıfı üzerinden decorator patterni kullanıyoruz.
