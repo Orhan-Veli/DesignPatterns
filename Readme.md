@@ -9,6 +9,7 @@
 * [Business Delegate](#business-delegate)
 * [Chain Of Responsibility](#chain-of-Responsibility)
 * [Command](#command)
+* [Composite Entity](#composite-entity)
 
 ## Abstract Factory
 
@@ -115,3 +116,17 @@ Bir windows form, wpf veya unity gibi uygulama tabanlı program kodlarken kullan
 ## Command Pattern Uygulama Açıklaması
 
 Bir Order arayüzü oluşturuyoruz bu arayüz command gibi davranıyor. Stock adında bir sınıf oluşturuyoruz ve bu sınıf istek gibi hareket ediyor. BuyStock ve SellStock sınıflarımız command işlemlerini yürütüyor. Broker sınıfımız çağırıcı olarak işlev görüyor ve sipariş alıyor. Broker sınıfı command tasarım desenini kullanarak hangi objeye göre işlem yapacağını belirliyor.
+
+# Composite Entity
+
+## Composite Entity Nedir?
+
+Birden fazla parça halinde olan nesnelerin tek bir nesne gibi hareket etmesini sağlayan tasarım desenidir.
+
+## Composite Entity Ne Zaman Kullanılır?
+
+Birden fazla nesnenin bulunduğu bir yapınız varsa ve karmaşıklıktan kurtulmak istiyorsanız bu tasarım deseni tam size göre.
+
+## Composite Entity Uygulama Açıklaması
+
+Composite Entity adında bir sınıf oluşturacağız, bu sınıfımız tasarım desenimizi taklit edecek. CoarseGrainedObject sınıfımız içinde önceden oluşturduğumuz sınıfları barındıracak. Sonrasında Client sınıfımız üzerinden CompositeEntity sınıfını kullanarak Composite Entity tasarım desenini uyguluyoruz.
