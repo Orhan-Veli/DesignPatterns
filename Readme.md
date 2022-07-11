@@ -174,3 +174,17 @@ Karmaşık bir yapınız olduğunu düşünün, sürekli farklı bir sisteme git
 ## Facade Pattern Uygulama Açıklaması
 
 IShape adında bir arayüz oluşturuyoruz. Bu arayüzü Circle, Rectangle, Square kalıtım alıyor. ShapeMaker sınıfımız IShape arayüzü üzerinde alt sınıfları kullanarak Facade tasarım desenini yürütüyor.
+
+# Factory Method
+
+## Factory Method Pattern Nedir?
+
+Bir nesne yaratmak için tek bir arayüz kullanan ve altsınıflarda oluşturulacak nesne türlerinin bu arayüzü değiştirebilmesine izin veren tasarım desenidir. 
+
+## Factory Method Pattern Ne Zaman Kullanılır?
+
+Bir adet temel sınıfımız olduğunu düşünelim ve bunun alt sınıfları olsun. Biz burada bir alt sınıfı döndermek istiyorsak bu tasarım deseni tam bize göre.
+
+## Factory Method Pattern Uygulama Açıklaması
+
+IShape adında bir arayüzümüz var bu arayüzü Circle, Square,Rectangle sınıfı kullanıyor. ShapeFactory sınıfımıza hangi alt sınıfı kullanacağımız söylüyoruz ve o da bize istediğimiz sınıfı döndürüyor.
