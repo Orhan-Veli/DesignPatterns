@@ -10,6 +10,7 @@
 * [Chain Of Responsibility](#chain-of-Responsibility)
 * [Command](#command)
 * [Composite Entity](#composite-entity)
+* [Data Access Object](#data-access-object)
 
 ## Abstract Factory
 
@@ -23,7 +24,7 @@ Factory method patternini kullandınız fakat artık ürün sayınız artmaya ba
 
 ### Abstract Factory Uygulama Açıklaması
 
-Shape adında bir arayüz oluşturuyoruz, bu arayüzü Rectangle, Square, RoundedRectangle, RoundedSquare kalıtım alıyor. Sonrasında AbstractFactory adında bir sanal sınıf oluşturup ShapeFactory ve RoundedShapeFactory sınıflarımıza kalıtım olarak alıyoruz.Oluşturduğumuz FactoryProducer sınıfı aracılığıyla AbstractFactory sınıfı üzerinden hangi şekili üreteceğimizi söylüyoruz. Son olarak konsol üzerinden hangi nesneyi üreteceğimizi söyleyerek işlemlerimizi tamamlıyoruz. 
+Shape adında bir arayüz oluşturuyoruz, bu arayüzü Rectangle, Square, RoundedRectangle, RoundedSquare kalıtım alıyor. Sonrasında AbstractFactory adında bir sanal sınıf oluşturup ShapeFactory ve RoundedShapeFactory sınıflarımıza kalıtım olarak alıyoruz.Oluşturduğumuz FactoryProducer sınıfı aracılığıyla AbstractFactory sınıfı üzerinden hangi şekili üreteceğimizi söylüyoruz. Son olarak Program üzerinden hangi nesneyi üreteceğimizi söyleyerek işlemlerimizi tamamlıyoruz. 
 
 
 # Adapter
@@ -59,7 +60,7 @@ Client tarafından direkt farklı arayüzlere erişmek istemiyorsanız ve yapın
 ## Bridge Pattern Uygulama Açıklaması
 
 DrawAPI arayüzümüz burada bridge entegratörü olarak işlev görüyor. RedCircle ve GreenCircle bu arayüzü kalıtım alıyor.
-Shape sanal sınıfımız DrawAPI arayüzümüzü kullanıyor ve Konsol uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
+Shape sanal sınıfımız DrawAPI arayüzümüzü kullanıyor ve Program uygulamamızda, bu sınıf üzerinden farklı sınıfları çağırıyor.
 
 # Builder
 
@@ -73,7 +74,7 @@ Karmaşık bir yapınız var ise constructerda biriken parametreler, arayüzler 
 
 ## Builder Pattern Uygulama Açıklaması
 
-Toy adında bir model oluşturuyoruz. IToyBuilder arayüzümüzü oluşturup iki adet ToyABuilder ve ToyBBuilder sınıflarımıza entegre ediyoruz. Oluşturduğumuz ToyCreator sınıfımız bir toy builder sınıfı alıyor ve konsol üzerinden bir toy üretiyor.
+Toy adında bir model oluşturuyoruz. IToyBuilder arayüzümüzü oluşturup iki adet ToyABuilder ve ToyBBuilder sınıflarımıza entegre ediyoruz. Oluşturduğumuz ToyCreator sınıfımız bir toy builder sınıfı alıyor ve Program üzerinden bir toy üretiyor.
 
 # Business Delegate
 
@@ -130,3 +131,17 @@ Birden fazla nesnenin bulunduğu bir yapınız varsa ve karmaşıklıktan kurtul
 ## Composite Entity Uygulama Açıklaması
 
 Composite Entity adında bir sınıf oluşturacağız, bu sınıfımız tasarım desenimizi taklit edecek. CoarseGrainedObject sınıfımız içinde önceden oluşturduğumuz sınıfları barındıracak. Sonrasında Client sınıfımız üzerinden CompositeEntity sınıfını kullanarak Composite Entity tasarım desenini uyguluyoruz.
+
+# Data Access Object
+
+## Data Access Object Nedir?
+
+Veri ve iş sınıflarımızın birbirinden ayrılması için kullanılan tasarım desenidir.
+
+## Data Access Object Ne Zaman Kullanılır?
+
+Veri ve iş sınıflarınız birbiri ile iç içeyse, kod okunabilirliği zorlaştırıyor veya karmaşıklaştırıyorsa bu tasarım deseni tam size göre.
+
+## Data Access Object Uygulama Açıklaması
+
+Bir tane Student objesi oluşturacağuz ve bu obje model görevi görecek. Sonrasında StudentDao arayüzü oluşturup bu arayüzü StudentDao sınıfımız kalıtım alacak. Program sınıfımız tasarım desenini StudentDao sınıfı üzerinden yürütecek.
