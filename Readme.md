@@ -19,6 +19,7 @@
 * [Interpreter](#interpreter)
 * [Iterator](#iterator)
 * [Mediator](#mediator)
+* [Memento](#memento)
 
 ## Abstract Factory
 
@@ -33,7 +34,6 @@ Factory method patternini kullandınız fakat artık ürün sayınız artmaya ba
 ### Abstract Factory Uygulama Açıklaması
 
 IShape adında bir arayüz oluşturuyoruz, bu arayüzü Rectangle, Square, RoundedRectangle, RoundedSquare kalıtım alıyor. Sonrasında AbstractFactory adında bir sanal sınıf oluşturup ShapeFactory ve RoundedShapeFactory sınıflarımıza kalıtım olarak alıyoruz.Oluşturduğumuz FactoryProducer sınıfı aracılığıyla AbstractFactory sınıfı üzerinden hangi şekili üreteceğimizi söylüyoruz. Son olarak Program üzerinden hangi nesneyi üreteceğimizi söyleyerek işlemlerimizi tamamlıyoruz. 
-
 
 # Adapter
 
@@ -323,3 +323,17 @@ Genel olarak CQRS tasarım deseni bu tasarım desenini kullanıyor. Genellikle C
 ## Mediator Pattern Uygulama Açıklaması
 
 Uygulamamızda bulunan User sınıfımız Chatroom sınıfını kullanarak mesaj iletimi gerçekleştiririz. User sınıfımız kullanıcılar arasındaki iletişimi sağlayarak mediator tasarım desenini kullanıyor.
+
+# Memento
+
+## Memento Pattern Nedir?
+
+Bu tasarım deseni nesneyi bir önceki durumuna geri çevirmek için kullanılır.
+
+## Memento Pattern Ne Zaman Kullanılır?
+
+Bir nesneyi önceki durumuna çevirmek istiyorsak bu tasarım deseni tam bize göre.
+
+## Memento Pattern Uygulama Açıklaması
+
+Burada 3 adet aktif rol oynayan sınıfımız var. Memento sınıfımız ger çevrilecek objenin durumunu tutuyor. Caretaker sınıfımız Memento sınıfımızdaki objemizi geri çevirir. Originator sınıfımız yeni bir tane durum yaratır ve memento sınıfında saklar.
