@@ -15,6 +15,7 @@
 * [Filter](#filter)
 * [Flyweight](#flyweight)
 * [Front Controller](#front-controller)
+* [Intercepting Filter](#intercepting-filter)
 
 
 ## Abstract Factory
@@ -246,3 +247,35 @@ Bütün istekleri tek bir tarafta işlemek istiyorsanız bu tasarım deseni tam 
 ## Front Controller Pattern Uygulama Açıklaması
 
 Oluşturduğumuz sınıflarımız tasarım desenini olduğu gibi kullanılmaktadır.
+
+# Intercepting Filter
+
+## Intercepting Filter Pattern Nedir?
+
+Bu tasarım deseni gelen istek ve yanıtları önceden ve sonradan işlemek için kullanılır. 
+
+## Intercepting Filter Pattern Ne Zaman Kullanılır?
+
+Genellikle gelen istekleri veya yanıtları önceden bir işleme tabi tutmak istiyorsak bu tasarım deseni tam size göre.
+
+## Intercepting Filter Pattern Uygulama Açıklaması
+
+### Filter
+
+Arayüzümüz aracılığıyla gelen isteği nasıl işleyeceğimize karar veriyoruz.
+
+### Filter Chain
+
+Birden fazla filtrelenecek isteği taşıyor ve nasıl işleneceğinize karar veriyor.
+
+### Target
+
+Target sınıfımız gelen istekleri işliyor.
+
+### Filter Manager
+
+Filter Manager sınıfımız ise filter chain ve filter sınıflarını yönetiyor.
+
+### Client
+
+Client sınıfımız ise istek atan sınıfımız konumunda.
