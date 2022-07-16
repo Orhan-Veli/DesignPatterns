@@ -18,6 +18,7 @@
 * [Intercepting Filter](#intercepting-filter)
 * [Interpreter](#interpreter)
 * [Iterator](#iterator)
+* [Mediator](#mediator)
 
 ## Abstract Factory
 
@@ -308,3 +309,17 @@ Eğer uygulamanızda birden fazla nesne varsa ve birbiri ile olan bağlantılar�
 ## Iterator Pattern Uygulama Açıklaması
 
 IIterator ve IContainer arayüzlerimizi oluşturuyoruz. Bu arayüzler navigasyon methodunu anlatıyor diğeri ise iteratoru dönderiyor. Sınıflarımız bu arayüzleri kalıtım alıyor ve kullanıyor. NameRepository sınıfımız üzerinden iterator tasarım desenini aktif ediliyor.
+
+# Mediator
+
+## Mediator Pattern Nedir?
+
+Birden fazla obje ve ya sınıfın haberleşme karmaşıklığını çözmek için bu tasarım deseni kullanılır.
+
+## Mediator Pattern Ne Zaman Kullanılır?
+
+Genel olarak CQRS tasarım deseni bu tasarım desenini kullanıyor. Genellikle Constructer oluşan sınıf kalabağını azaltmak için kullanılabilir.
+
+## Mediator Pattern Uygulama Açıklaması
+
+Uygulamamızda bulunan User sınıfımız Chatroom sınıfını kullanarak mesaj iletimi gerçekleştiririz. User sınıfımız kullanıcılar arasındaki iletişimi sağlayarak mediator tasarım desenini kullanıyor.
