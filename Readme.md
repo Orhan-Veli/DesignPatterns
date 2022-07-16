@@ -22,6 +22,7 @@
 * [Memento](#memento)
 * [Mvc](#mvc)
 * [Null](#null)
+* [Observer](#observer)
 
 ## Abstract Factory
 
@@ -367,3 +368,17 @@ Eğer gelen data yerine null dönmek istemiyorsanız ve yerine boş bir obje dö
 ## Null Pattern Uygulama Açıklaması
 
 AbstractCustomer sınıfı oluşturuyoruz, bu sanal sınıf üzerinden RealCustomer ve NullCustomer sınıflarını kullanıyoruz. CustomerFactory sınıfı yeni bir Customer oluşturuyor ve oluşturulan Customerın Gerçek mi yoksa Null mı olacağı belirleniyor.
+
+# Observer
+
+## Observer Pattern Nedir?
+
+Bu tasarım deseni 1-N ilişkilerde bir obje değiştirilirse ona bağlı olan objeyi otomatik olarak günceller. 
+
+## Observer Pattern Ne Zaman Kullanılır?
+
+1-N ilişki de bir obje güncellendiğinde ona bağlı olan objelerinde güncellenmesini istiyorsak.
+
+## Observer Pattern Uygulama Açıklaması
+
+Burada 3 adet aktif sınıfımız var. Subject, Observer ve Client. Subject sınıfımız Clientlara Observerları bağlama ve koparma işlemi yapar. Burada Subject ve Observer sınıflarımız tasarım desenimizi uyguluyor.
