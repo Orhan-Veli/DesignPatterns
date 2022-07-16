@@ -21,6 +21,7 @@
 * [Mediator](#mediator)
 * [Memento](#memento)
 * [Mvc](#mvc)
+* [Null](#null)
 
 ## Abstract Factory
 
@@ -353,3 +354,16 @@ Bu pattern genel olarak asp.net mvc olarak bilinir.
 
 Student sınıfımız model olarak kullanılıyor. StudenController sınıfımız gelen istekleri karşılıyor ve işliyor. Sonrasında ise StudentView i güncelliyor.
 
+# Null
+
+## Null Pattern Nedir?
+
+Bu tasarım deseninde eğer bir obje null ise o objenin yerine null obje oluşturulup kullanılıyor.
+
+## Null Pattern Ne Zaman Kullanılır?
+
+Eğer gelen data yerine null dönmek istemiyorsanız ve yerine boş bir obje döndürmek istiyorsanız bu tasarım deseni tam size göre.
+
+## Null Pattern Uygulama Açıklaması
+
+AbstractCustomer sınıfı oluşturuyoruz, bu sanal sınıf üzerinden RealCustomer ve NullCustomer sınıflarını kullanıyoruz. CustomerFactory sınıfı yeni bir Customer oluşturuyor ve oluşturulan Customerın Gerçek mi yoksa Null mı olacağı belirleniyor.
