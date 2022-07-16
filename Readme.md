@@ -16,6 +16,7 @@
 * [Flyweight](#flyweight)
 * [Front Controller](#front-controller)
 * [Intercepting Filter](#intercepting-filter)
+* [Interpreter](#interpreter)
 
 
 ## Abstract Factory
@@ -279,3 +280,17 @@ Filter Manager sınıfımız ise filter chain ve filter sınıflarını yönetiy
 ### Client
 
 Client sınıfımız ise istek atan sınıfımız konumunda.
+
+# Interpreter
+
+## Interpreter Tasarım Deseni Nedir?
+
+Bu tasarım deseni dil çevirmelerinde yaşadığımız sıkıntıyı çözmek için kullanılıyor.
+
+## Interpreter Tasarım Deseni Ne Zaman Kullanılır?
+
+Eğer dil çevirme konusunda bir tasarım deseni arıyorsanız bu tasarım deseni tam size göre.
+
+## Interpreter Tasarım Deseni Uygulama Açıklaması
+
+IExpression arayüzü yardımıyla işlemlerimizi gerçekleştiriyoruz. TerminalExpression sınıfımız burada Interpreter tasarım desenini kullanmaktadır. Diğer sınıflarımız kombinasyon sınıfları olarak kullanılmaktadır.
