@@ -23,6 +23,7 @@
 * [Mvc](#mvc)
 * [Null](#null)
 * [Observer](#observer)
+* [Prototype](#prototype)
 
 ## Abstract Factory
 
@@ -382,3 +383,17 @@ Bu tasarım deseni 1-N ilişkilerde bir obje değiştirilirse ona bağlı olan o
 ## Observer Pattern Uygulama Açıklaması
 
 Burada 3 adet aktif sınıfımız var. Subject, Observer ve Client. Subject sınıfımız Clientlara Observerları bağlama ve koparma işlemi yapar. Burada Subject ve Observer sınıflarımız tasarım desenimizi uyguluyor.
+
+# Prototype
+
+## Prototype Pattern Nedir?
+
+Bu tasarım deseni olan bir objeyi kopyalamak için kullanıyor. Bunun avantajı ise veritabanına tekrar istek atmak yerine kopyalanan objeyi kullanıyor.
+
+## Prototype Pattern Ne Zaman Kullanılır?
+
+Eğer veri tabanında çok veri tutuyorsanız ve sürekli verileri veritabanına istek atıp almak istemiyorsanız, bu tasarım deseni tam size göre.
+
+## Prototype Pattern Uygulama Açıklaması
+
+IShape adında sanal bir sınıf oluşturuyoruz ve bu sanal sınıfı Circle, Rectangle, Square sınıfları kalıtım alıyor. İsteklerimizi ShapeCache sınıfı üzerinde yürütüyoruz. ShapeCache sınıfımız gelen isteğe göre kopya ve ya esas veriyi dönderiyor.
