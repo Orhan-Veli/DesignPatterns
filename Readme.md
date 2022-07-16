@@ -20,6 +20,7 @@
 * [Iterator](#iterator)
 * [Mediator](#mediator)
 * [Memento](#memento)
+* [Mvc](#mvc)
 
 ## Abstract Factory
 
@@ -337,3 +338,18 @@ Bir nesneyi önceki durumuna çevirmek istiyorsak bu tasarım deseni tam bize g�
 ## Memento Pattern Uygulama Açıklaması
 
 Burada 3 adet aktif rol oynayan sınıfımız var. Memento sınıfımız ger çevrilecek objenin durumunu tutuyor. Caretaker sınıfımız Memento sınıfımızdaki objemizi geri çevirir. Originator sınıfımız yeni bir tane durum yaratır ve memento sınıfında saklar.
+
+# Mvc
+
+## Mvc Pattern Nedir?
+
+Bu tasarım deseni modeli, görüntüyü ve kontrolcüyü birbirinden ayırmak için kullanılır.
+
+## Mvc Pattern Ne Zaman Kullanılır?
+
+Bu pattern genel olarak asp.net mvc olarak bilinir. 
+
+## Mvc Pattern Uygulama Açıklaması
+
+Student sınıfımız model olarak kullanılıyor. StudenController sınıfımız gelen istekleri karşılıyor ve işliyor. Sonrasında ise StudentView i güncelliyor.
+
