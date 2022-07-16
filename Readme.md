@@ -17,7 +17,7 @@
 * [Front Controller](#front-controller)
 * [Intercepting Filter](#intercepting-filter)
 * [Interpreter](#interpreter)
-
+* [Iterator](#iterator)
 
 ## Abstract Factory
 
@@ -294,3 +294,17 @@ Eğer dil çevirme konusunda bir tasarım deseni arıyorsanız bu tasarım desen
 ## Interpreter Tasarım Deseni Uygulama Açıklaması
 
 IExpression arayüzü yardımıyla işlemlerimizi gerçekleştiriyoruz. TerminalExpression sınıfımız burada Interpreter tasarım desenini kullanmaktadır. Diğer sınıflarımız kombinasyon sınıfları olarak kullanılmaktadır.
+
+# Iterator
+
+## Iterator Pattern Nedir?
+
+Bu tasarım deseni bir koleksiyon nesnesinin öğelerine, altta yatan temsilini bilmeye gerek duymadan sıralı bir şekilde erişmek için kullanılır.
+
+## Iterator Pattern Ne Zaman Kullanılır?
+
+Eğer uygulamanızda birden fazla nesne varsa ve birbiri ile olan bağlantılarını en aza indirmek istiyorsanız, bu tasarım deseni tam size göre.
+
+## Iterator Pattern Uygulama Açıklaması
+
+IIterator ve IContainer arayüzlerimizi oluşturuyoruz. Bu arayüzler navigasyon methodunu anlatıyor diğeri ise iteratoru dönderiyor. Sınıflarımız bu arayüzleri kalıtım alıyor ve kullanıyor. NameRepository sınıfımız üzerinden iterator tasarım desenini aktif ediliyor.
