@@ -14,6 +14,7 @@
 * [Facade](#facade)
 * [Filter](#filter)
 * [Flyweight](#flyweight)
+* [Front Controller](#front-controller)
 
 
 ## Abstract Factory
@@ -220,3 +221,28 @@ Birden fazla aynı tipte obje kullanacaksanız bu tasarım deseni tam size göre
 
 IShape adında bir arayüz oluşturuyoruz. Bu arayüzü Circle adında sınıfımız kalıtım alıyor. ShapeFactory sınıfımız IShape arayüzünü kullanarak oluşturulacak Circle objesini önce kontrol ediyor. Eğer varsa olanı dönüyor yoksa objeyi oluşturup dönüş yapıyor.
 
+# Front Controller
+
+## Front Controller Pattern Nedir?
+
+Bu tasarım deseni merkezleşmiş bir istek yönetim mekanizması kullanıyor. Bu mekanizma sayesinde tüm istekler tek bir işleyici tarafından karşılanıyor.
+
+### Front Controller:
+
+Bütün istekleri işleyen, karşılayan sınıf.
+
+### Dispatcher
+
+Bu sınıfı genellikle Front Controller kullanılır ve bazı spesifik objeleri işlemesi için başka sınıflara yönlendirir.
+
+###
+
+İsteklerin oluşturduğu objeler.
+
+## Front Controller Pattern Ne Zaman Kullanılır?
+
+Bütün istekleri tek bir tarafta işlemek istiyorsanız bu tasarım deseni tam size göre.
+
+## Front Controller Pattern Uygulama Açıklaması
+
+Oluşturduğumuz sınıflarımız tasarım desenini olduğu gibi kullanılmaktadır.
