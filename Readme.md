@@ -13,6 +13,8 @@
 * [Data Access Object](#data-access-object)
 * [Facade](#facade)
 * [Filter](#filter)
+* [Flyweight](#flyweight)
+
 
 ## Abstract Factory
 
@@ -203,4 +205,18 @@ Filreleme işlemlerinde kullanılan tasarım desenidir.
 ## Filter Pattern Uygulama Açıklaması
 
 Bir tane Person objesi oluşturalım, oluşturduğumuz ICriteria arayüzünü filtreleme işlemlerinde kullanacağımız sınıflar kalıtım alıyor. Program sınıfında bu arayüzü kullanarak hangi sınıfa göre filtreleme işlemi yapacağımızı belirtiyoruz.
+
+# Flyweight
+
+## Flyweight Pattern nedir?
+
+Bu tasarım deseni genel olarak oluşturulan obje sayısını azaltmak, ramde kullanılan yeri azaltmak ve performansı arttırmak için kullanılır. 
+
+## Flyweight Pattern Ne Zaman Kullanılır?
+
+Birden fazla aynı tipte obje kullanacaksanız bu tasarım deseni tam size göre.
+
+## Flyweight Pattern Uygulama Açıklaması
+
+IShape adında bir arayüz oluşturuyoruz. Bu arayüzü Circle adında sınıfımız kalıtım alıyor. ShapeFactory sınıfımız IShape arayüzünü kullanarak oluşturulacak Circle objesini önce kontrol ediyor. Eğer varsa olanı dönüyor yoksa objeyi oluşturup dönüş yapıyor.
 
