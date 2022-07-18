@@ -2,6 +2,7 @@
 > Bu repo da insanların türkçe olarak tasarım desenlerini anlamasını ve projelerine entegre etmesini sağlamaya çalışacağım.
 
 ## İçindekiler
+* [Açıklama](#aciklama)
 * [Abstract Factory](#abstract-factory)
 * [Adapter](#adapter)
 * [Bridge](#bridge)
@@ -32,6 +33,10 @@
 * [Template](#template)
 * [Transfer Object](#transfer-object)
 * [Visitor](#visitor)
+
+## Açıklama
+
+Merhaba, bu tasarım desenlerinin kod örneklerinin neredeyse hepsi https://www.tutorialspoint.com/design_pattern adresinden alınmıştır. Türkçe kaynaklardan yararlanılmış olup, kısa özet olarak insanlara sunulmuştur. Şimdiden iyi okumalar!
 
 ## Abstract Factory
 
@@ -242,7 +247,7 @@ IShape adında bir arayüz oluşturuyoruz. Bu arayüzü Circle adında sınıfı
 
 Bu tasarım deseni merkezleşmiş bir istek yönetim mekanizması kullanıyor. Bu mekanizma sayesinde tüm istekler tek bir işleyici tarafından karşılanıyor.
 
-### Front Controller:
+### Front Controller
 
 Bütün istekleri işleyen, karşılayan sınıf.
 
