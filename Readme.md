@@ -24,6 +24,7 @@
 * [Null](#null)
 * [Observer](#observer)
 * [Prototype](#prototype)
+* [Proxy](#proxy)
 
 ## Abstract Factory
 
@@ -397,3 +398,17 @@ Eğer veri tabanında çok veri tutuyorsanız ve sürekli verileri veritabanına
 ## Prototype Pattern Uygulama Açıklaması
 
 IShape adında sanal bir sınıf oluşturuyoruz ve bu sanal sınıfı Circle, Rectangle, Square sınıfları kalıtım alıyor. İsteklerimizi ShapeCache sınıfı üzerinde yürütüyoruz. ShapeCache sınıfımız gelen isteğe göre kopya ve ya esas veriyi dönderiyor.
+
+# Proxy
+
+## Proxy Pattern Nedir?
+
+Bu tasarım deseninde bir sınıf başka bir sınıfın işlevselliğini temsil eder.
+
+## Proxy Pattern Ne Zaman Kullanılır?
+
+Elinizde bir sınıf olduğunu düşünün bu sınıfın özelliğini başka sınıflarında kullanmasını istiyor ve ona erişmesini istiyoruz. Burada tasarım desenimiz devreye giriyor.
+
+## Proxy Pattern Uygulama Açıklaması
+
+IImage arayüz oluşturuyoruz. Bu arayüzümüzü RealImage ve ProxyImage sınıflarımız kalıtım alıyor. ProxyImage sınıfımız sürekli RealImage sınıfından obje almak yerine olanı veriyor. Bu sayede ramde boş yere yer kaplamamış oluyor.
