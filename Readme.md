@@ -28,6 +28,7 @@
 * [Service Locator](#service-locator)
 * [Singleton](#singleton)
 * [State](#state)
+* [Strategy](#strategy)
 
 ## Abstract Factory
 
@@ -475,3 +476,17 @@ Bir nesnemizin durumuna göre davranışı değişmesi gerekiyorsa bu tasarım d
 ## State Pattern Uygulama Açıklaması
 
 IState adında bir arayüz oluşturuyoruz. Bu arayüz aracığıyla StartState ve StopState sınıflarına erişiyoruz. Context sınıfımız IState arayüzünüz kullanarak IState arayüzü üzerinden sınıflarımız içerisinde methodlara erişiyor. 
+
+# Strategy
+
+## Strategy Pattern Nedir?
+
+Eğer projemizde birden fazla algoritma kullanmak istiyorsak ve buna da farklı sınıflar içerisinde aynı arayüz üzerinden erişmek istiyorsak bu tasarım desenini kullanabiliriz.
+
+## Strategy Pattern Ne Zaman Kullanılır?
+
+Birden fazla algoritma ya da farklı işlevselliği olan fonksiyonlar kullanmak istiyorsanız o zaman bu tasarım deseni tam size göre.
+
+## Strategy Pattern Uygulama Açıklaması
+
+IStrategy arayüzünü oluşturuyoruz. Bu arayüzü kalıtım alan sınıflar algoritmalarımızın bulunduğu sınıflar. Context sınıfı üzerinden tasarım desenini etkinleştiriyoruz. 
