@@ -25,6 +25,7 @@
 * [Observer](#observer)
 * [Prototype](#prototype)
 * [Proxy](#proxy)
+* [Service Locator](#service-locator)
 
 ## Abstract Factory
 
@@ -412,3 +413,35 @@ Elinizde bir sınıf olduğunu düşünün bu sınıfın özelliğini başka sı
 ## Proxy Pattern Uygulama Açıklaması
 
 IImage arayüz oluşturuyoruz. Bu arayüzümüzü RealImage ve ProxyImage sınıflarımız kalıtım alıyor. ProxyImage sınıfımız sürekli RealImage sınıfından obje almak yerine olanı veriyor. Bu sayede ramde boş yere yer kaplamamış oluyor.
+
+# Service Locator
+
+## Service Locator Pattern Nedir?
+
+Bu tasarım desenimiz servis oluşturmak istediğimiz zaman ilk önce hafızada bu servis bulunuyor mu diye kontrol ediyor. Varsa onu alıyor yoksa oluşturup onu hafızaya kaydediyor ve geri dönderiyor. Bu sayede performans ve zaman kazanmış oluyoruz.
+
+## Service Locator Pattern Ne Zaman Kullanılır?
+
+Projenizde birden fazla servis birikmişse ve işlem yoğunluğu çoksa, sürekli servislere gidip gelmek sizi performans kaybına uğratıyorsa bu tasarım deseni tam size göre.
+
+## Service Locator Pattern Uygulama Açıklaması
+
+### Service
+
+Bu servisimiz gelen istekleri işleyen servis, genel olarak bu servisi hafızaya alıyorsunuz.
+
+### Context/Initial Context
+
+Arama amacıyla taşıyan servisi referans olarak alır.
+
+### Service Locator
+
+Hafizada duran servisleri tek bir noktadan çeken servis.
+
+### Cache
+
+Hafızada duran servislerin bulunduğu yerdir.
+
+### Client
+
+Servisleri çağıran müşteri olarak görünür.
