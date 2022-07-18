@@ -29,6 +29,7 @@
 * [Singleton](#singleton)
 * [State](#state)
 * [Strategy](#strategy)
+* [Template](#template)
 
 ## Abstract Factory
 
@@ -490,3 +491,17 @@ Birden fazla algoritma ya da farklı işlevselliği olan fonksiyonlar kullanmak 
 ## Strategy Pattern Uygulama Açıklaması
 
 IStrategy arayüzünü oluşturuyoruz. Bu arayüzü kalıtım alan sınıflar algoritmalarımızın bulunduğu sınıflar. Context sınıfı üzerinden tasarım desenini etkinleştiriyoruz. 
+
+# Template
+
+## Template Pattern Nedir?
+
+Bir adet sanal sınıf üzerinden oluşturulan sınıflar, ihtiyaca göre sanal sınıfın metodlarını kullanır ve ya override eder.  
+
+## Template Pattern Ne Zaman Kullanılır?
+
+Birden fazla aynı metodu kullanacak ve ya override edecek sınıfınız varsa ve kod tekrarına girmek istemiyorsanız bu tasarım deseni tam size göre.
+
+## Template Pattern Uygulama Açıklaması
+
+Game sanal sınıfını kullanan ve metodlarını override eden iki adet sınıfımız var. Kullanıcı bunlara sanal sınıf üzerinden erişir ve içerindeki metodları kullanır.
