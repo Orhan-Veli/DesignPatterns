@@ -26,6 +26,7 @@
 * [Prototype](#prototype)
 * [Proxy](#proxy)
 * [Service Locator](#service-locator)
+* [Singleton](#singleton)
 
 ## Abstract Factory
 
@@ -445,3 +446,17 @@ Hafızada duran servislerin bulunduğu yerdir.
 ### Client
 
 Servisleri çağıran müşteri olarak görünür.
+
+# Singleton
+
+## Singleton Pattern Nedir?
+
+Bu tasarım deseninde sadece bir tek nesnenin oluşturulması sağlanır. Bu sayede projemizin içinde sadece oluşturulan nesneyi kullanabiliriz.
+
+## Singleton Pattern Ne Zaman Kullanılır?
+
+Eğer bir sınıfımızı bütün projenin içinde başka bir nesne oluşturmadan kullanmak istiyorsak bu tasarım deseni tam bize göre.
+
+## Singleton Pattern Uygulama Açıklaması
+
+SingleObject isimli sınıfımızı oluşturuyoruz. Burada önemli nokta Constructerın özel ve sabit olmasıdır. İçerisinde sabit methodlar bulunur ve diğer sınıflardan ona göre çağırılır.  
