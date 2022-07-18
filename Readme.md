@@ -31,6 +31,7 @@
 * [Strategy](#strategy)
 * [Template](#template)
 * [Transfer Object](#transfer-object)
+* [Visitor](#visitor)
 
 ## Abstract Factory
 
@@ -520,3 +521,17 @@ Basit bir uygulama yapmak istiyorsak direkt veri alıp vermek için kullanacaksa
 ## Transfer Object Pattern Uygulama Açıklaması
 
 StudentVO sınıfımız burada aslında bir model olarak görünüyor. StudentBO sınıfımız ise crud operasyonlarımızı yaptığımız business sınıfı olarak geçiyor. 
+
+# Visitor
+
+## Visitor Pattern Nedir?
+
+Kullanılan algoritmayı değiştirmeye yarayan bir ziyaretçi sınıf kullanıyoruz. Bu şekilde ziyaretçi değiştikçe algoritmamız da değişebiliyor.
+
+## Visitor Pattern Ne Zaman Kullanılır?
+
+Eğer bir ürününüz üzerinde farklı farklı algoritmalar kurulmasını istiyorsanız bu tasarım deseni tam size göre.
+
+## Visitor Pattern Uygulama Açıklaması
+
+IComputerPart arayüzümüzü oluşturuyoruz. Bu arayüz üzerinden ürünümüzün parçalarına erişiyoruz. IComputerPartVisitor arayüzümüz ziyaretçi metodlarımızı barındırıyor ve ComputerPartDisplayVisitor sınıfımız bu arayüzü kalıtım alıyor. Ziyaretçimiz yeni bir Computer nesnesi oluştuduğunda o nesnenin içindeki ürünleri ComputerPartDisplayVisitor metodu aracıyla görebiliyor.
