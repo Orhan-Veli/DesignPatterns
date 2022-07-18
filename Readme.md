@@ -27,6 +27,7 @@
 * [Proxy](#proxy)
 * [Service Locator](#service-locator)
 * [Singleton](#singleton)
+* [State](#state)
 
 ## Abstract Factory
 
@@ -460,3 +461,17 @@ Eğer bir sınıfımızı bütün projenin içinde başka bir nesne oluşturmada
 ## Singleton Pattern Uygulama Açıklaması
 
 SingleObject isimli sınıfımızı oluşturuyoruz. Burada önemli nokta Constructerın özel ve sabit olmasıdır. İçerisinde sabit methodlar bulunur ve diğer sınıflardan ona göre çağırılır.  
+
+# State
+
+## State Pattern Nedir?
+
+Bu tasarım deseninde farklı durumlara sahip birden fazla obje oluşturuyoruz. Bir adet de context objesi oluşturuyoruz. Objelerin durumu değiştikçe, context objesi de değişen durumlara göre davranış gösteriyor.
+
+## State Pattern Ne Zaman Kullanılır?
+
+Bir nesnemizin durumuna göre davranışı değişmesi gerekiyorsa bu tasarım deseni tam size göre.
+
+## State Pattern Uygulama Açıklaması
+
+IState adında bir arayüz oluşturuyoruz. Bu arayüz aracığıyla StartState ve StopState sınıflarına erişiyoruz. Context sınıfımız IState arayüzünüz kullanarak IState arayüzü üzerinden sınıflarımız içerisinde methodlara erişiyor. 
