@@ -30,6 +30,7 @@
 * [State](#state)
 * [Strategy](#strategy)
 * [Template](#template)
+* [Transfer Object](#transfer-object)
 
 ## Abstract Factory
 
@@ -505,3 +506,17 @@ Birden fazla aynı metodu kullanacak ve ya override edecek sınıfınız varsa v
 ## Template Pattern Uygulama Açıklaması
 
 Game sanal sınıfını kullanan ve metodlarını override eden iki adet sınıfımız var. Kullanıcı bunlara sanal sınıf üzerinden erişir ve içerindeki metodları kullanır.
+
+# Transfer Object
+
+## Transfer Object Pattern Nedir?
+
+Value object olarak bilinen tasarım desenidir. Eğer kullanıcı server a direkt birden fazla özellikli veri göndermek istiyorsak kullanırız.  
+
+## Transfer Object Pattern Ne Zaman Kullanılır?
+
+Basit bir uygulama yapmak istiyorsak direkt veri alıp vermek için kullanacaksak ve hızlı bir şey çıkarmak istiyorsak bu tasarım desenini kullanabiliriz.
+
+## Transfer Object Pattern Uygulama Açıklaması
+
+StudentVO sınıfımız burada aslında bir model olarak görünüyor. StudentBO sınıfımız ise crud operasyonlarımızı yaptığımız business sınıfı olarak geçiyor. 
