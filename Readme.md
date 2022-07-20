@@ -47,7 +47,7 @@ Structural: Yapısal
 
 Behavioural: Davranışsal
 
-<img src="https://miro.medium.com/max/771/1*8CAwMhyQ-DCkMDWV-vUycQ.jpeg" width="600" />
+<img src="https://fasrbrazil897.weebly.com/uploads/1/2/3/3/123357455/120707947.png" width="600" />
 
 ## Abstract Factory
 
