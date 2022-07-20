@@ -3,6 +3,7 @@
 
 ## İçindekiler
 * [Açıklama](#aciklama)
+* [Design Pattern Structures](#design-pattern-structures)
 * [Abstract Factory](#abstract-factory)
 * [Adapter](#adapter)
 * [Bridge](#bridge)
@@ -37,6 +38,16 @@
 ## Açıklama
 
 Merhaba, bu tasarım desenlerinin kod örneklerinin neredeyse hepsi https://www.tutorialspoint.com/design_pattern adresinden alınmıştır. Türkçe kaynaklardan yararlanılmış olup, kısa özet olarak insanlara sunulmuştur. Şimdiden iyi okumalar!
+
+## Design Pattern Structures
+
+Creational: Yaratıcı
+
+Structural: Yapısal
+
+Behavioural: Davranışsal
+
+<img src="https://miro.medium.com/max/771/1*8CAwMhyQ-DCkMDWV-vUycQ.jpeg" width="600" />
 
 ## Abstract Factory
 
